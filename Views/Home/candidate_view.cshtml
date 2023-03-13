@@ -1,0 +1,155 @@
+
+@model IEnumerable<Candidate_Management_System.Entities.CandidateInformation>
+@{
+}
+<style>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  th {
+    background-color: #9ac9ff;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover td {
+    background-color: #f5f5f5;
+  }
+  
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .btn-danger {
+    background-color: #f44336;
+  }
+  
+  .btn-danger:hover {
+    background-color: #d32f2f;
+  }
+</style>
+</style>
+<div class="text-center">
+  <h3>
+ List of candidates
+  </h3>
+ 
+</div>
+<table class="center">
+    <thead>
+        <tr>
+            <th>
+              Candidate Name
+               @* @Html.ActionLink("Candidate Name","candidate_view",new{sortBy=ViewBag.SortNameParameter}) *@
+                </th>
+                 <th>
+                Image
+                </th>
+                 <th>
+                DOB
+                </th>
+                 <th>
+                Address
+                </th>
+                <th>
+                Mobile
+                </th>
+                 <th>
+               Email
+                </th>
+                 <th>
+                Technology
+                </th>
+                 <th>
+               Resume.
+                </th>
+                <th>
+                 Description
+                </th>
+                <th class="text-center">
+                  Actions
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+ @foreach(var prod in Model)
+    {
+          <tr>
+            <td>
+                
+                 <a asp-controller="Home" asp-action="candidate_info_view" asp-route-id="@prod.Id">@prod.CandidateName</a> 
+                </td>
+                <td>
+                   <img src="~/Uploads/@prod.Image" height=20% width=20% alt="NO IMAGE FOUND" srcset="">
+                    </td>
+                      <td>
+                    @prod.Dob
+                    </td>
+                      <td>
+                    @prod.Address
+                    </td>
+                     <td>
+                @prod.Mobile
+                </td>
+                <td>
+                    @prod.Email
+                    </td>
+                      <td>
+                    @prod.Technology
+                    </td>
+                      <td>
+                    @prod.Resume
+                    </td>
+                    <td>
+                    @prod.Description
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit","candidate_info",new{prod.Id,prod.CandidateName,prod.Image,prod.Dob,prod.Address,prod.Mobile,prod.Email,prod.Technology,prod.Resume,prod.Description},new{@class="btn btn-success"})
+                    
+                        @Html.ActionLink("Delete","DeleteCandidate",new{prod.Id},new{@class="btn btn-danger",onclick="return confirm('Do you really want to delete this record')"})
+                    </td>
+            </tr>
+    }
+    </tbody>
+        </table>
+
+<div class="text-center m-3">
+ <button class="btn btn-info" > <a asp-controller="Home" asp-action="candidate_info" style="text-decoration:none;color:white;">Add New Candidate</a> </button>
+</div>
