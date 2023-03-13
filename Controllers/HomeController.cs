@@ -20,7 +20,10 @@ public class HomeController : Controller
         
     }
 
-   
+    public IActionResult Index()
+    {
+        return View();
+    }
 
     public IActionResult candidate_info(int Id, Candidate candidate)
     {
@@ -40,7 +43,10 @@ public class HomeController : Controller
     }
     [HttpGet]
 
-  
+    public IActionResult Privacy()
+    {
+        return View();
+    }
     public IActionResult candidate_view(string sortBy)
     {
         // ViewBag.SortNameParameter=string.IsNullOrEmpty(sortBy)?"Name desc":"";
