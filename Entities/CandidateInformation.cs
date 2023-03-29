@@ -25,5 +25,3 @@ public partial class CandidateInformation
 
     public string? Description { get; set; }
 }
-
-

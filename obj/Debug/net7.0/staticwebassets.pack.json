@@ -9,8 +9,24 @@
       "PackagePath": "staticwebassets\\Upload_Resume\\Day 15 Coding Solutions.pdf"
     },
     {
+      "Id": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Upload_Resume\\JanakRaj_Day12.pdf",
+      "PackagePath": "staticwebassets\\Upload_Resume\\JanakRaj_Day12.pdf"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Upload_Resume\\JanakRaj_Day9.pdf",
+      "PackagePath": "staticwebassets\\Upload_Resume\\JanakRaj_Day9.pdf"
+    },
+    {
       "Id": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Upload_Resume\\Progress_Report_11901150.pdf",
       "PackagePath": "staticwebassets\\Upload_Resume\\Progress_Report_11901150.pdf"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Upload_Resume\\project_report.pdf",
+      "PackagePath": "staticwebassets\\Upload_Resume\\project_report.pdf"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\20220327_141056.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\20220327_141056.jpg"
     },
     {
       "Id": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\IMG_20221129_171516-min.jpg",
@@ -21,8 +37,16 @@
       "PackagePath": "staticwebassets\\Uploads\\Screenshot (1).png"
     },
     {
+      "Id": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\WhatsApp Image 2023-03-02 at 13.29.08.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\WhatsApp Image 2023-03-02 at 13.29.08.jpeg"
+    },
+    {
       "Id": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\WhatsApp Image 2023-03-02 at 13.29.09.jpeg",
       "PackagePath": "staticwebassets\\Uploads\\WhatsApp Image 2023-03-02 at 13.29.09.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\WhatsApp Image 2023-03-02 at 13.31.14.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\WhatsApp Image 2023-03-02 at 13.31.14.jpeg"
     },
     {
       "Id": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\download.jpeg",
@@ -31,6 +55,10 @@
     {
       "Id": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\mypic.jpg",
       "PackagePath": "staticwebassets\\Uploads\\mypic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\pic.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\pic.jpg"
     },
     {
       "Id": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\css\\site.css",

@@ -2,11 +2,13 @@
 using Microsoft.AspNetCore.Mvc;
 using Candidate_Management_System.Models;
 using Candidate_Management_System.Entities;
+using Microsoft.AspNetCore.Authorization;
 // using Microsoft.AspNetCore.Hosting;
 // using Microsoft.AspNetCore.Http;
-
+ 
 namespace Candidate_Management_System.Controllers;
 
+[Authorize]
 public class HomeController : Controller
 {
 
@@ -27,7 +29,8 @@ public class HomeController : Controller
 
     public IActionResult candidate_info(int Id, Candidate candidate)
     {
-
+      
+        
         return View(candidate);
     }
 
@@ -47,26 +50,39 @@ public class HomeController : Controller
     {
         return View();
     }
-    public IActionResult candidate_view(string sortBy)
+    public IActionResult candidate_view(string Sorting_Order, string Search_Data)
     {
-        // ViewBag.SortNameParameter=string.IsNullOrEmpty(sortBy)?"Name desc":"";
-        // var employees=db.CandidateInformations.AsQueryable();
-        // switch(sortBy){
-        //     case "Name desc":
-        //     employees=employees.OrderByDescending(x=>x.CandidateName);
-        //     break;
-        //     default:
-        //     employees=employees.OrderBy(x=>x.CandidateName);
-        //     break;
+         ViewBag.SortingName = String.IsNullOrEmpty(Sorting_Order) ? "Name_Description" : "";  
+        ViewBag.SortingDate = Sorting_Order == "Date_Enroll" ? "Date_Description" : "Date";  
+    var students = from stu in db.CandidateInformations select stu;
+    //if search box does not empty then this will run
+    if(!string.IsNullOrEmpty(Search_Data)){
+        students = students.Where(stu => stu.CandidateName.Contains(Search_Data));  
+    }
+   
+    switch (Sorting_Order)  
+    {  
+        case "Name_Description":  
+        students = students.OrderByDescending(stu=> stu.CandidateName);  
+        break;  
+        case "Date_Enroll":  
+        students = students.OrderBy(stu => stu.Dob);  
+        break;  
+        case "Date_Description":  
+        students = students.OrderByDescending(stu => stu.Dob);  
+        break;  
+        default:  
+        students = students.OrderBy(stu => stu.CandidateName);  
+        break;  
+    }  
+    return View(students.ToList()); 
+   
 
-
+        // using (var context = new CandidateDBContext())
+        // {
+        //     var candidateList = context.CandidateInformations.ToList();
+        //     return View(candidateList);
         // }
-
-        using (var context = new CandidateDBContext())
-        {
-            var candidateList = context.CandidateInformations.ToList();
-            return View(candidateList);
-        }
     }
 
     [HttpPost]

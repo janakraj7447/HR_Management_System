@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/NrZDfzgIXG+uIrXGhYGm2MjobZ1TFW/QuBGVvUi5dY=",
+  "Hash": "Dz5/dy8iFu1u5FYZI+tvAtO1mcchw96LV4tTEmYO7pQ=",
   "Source": "Candidate_Management_System",
   "BasePath": "_content/Candidate_Management_System",
   "Mode": "Default",
@@ -1088,6 +1088,40 @@
       "OriginalItemSpec": "wwwroot\\Upload_Resume\\Day 15 Coding Solutions.pdf"
     },
     {
+      "Identity": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Upload_Resume\\JanakRaj_Day12.pdf",
+      "SourceId": "Candidate_Management_System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\",
+      "BasePath": "_content/Candidate_Management_System",
+      "RelativePath": "Upload_Resume/JanakRaj_Day12.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload_Resume\\JanakRaj_Day12.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Upload_Resume\\JanakRaj_Day9.pdf",
+      "SourceId": "Candidate_Management_System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\",
+      "BasePath": "_content/Candidate_Management_System",
+      "RelativePath": "Upload_Resume/JanakRaj_Day9.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload_Resume\\JanakRaj_Day9.pdf"
+    },
+    {
       "Identity": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Upload_Resume\\Progress_Report_11901150.pdf",
       "SourceId": "Candidate_Management_System",
       "SourceType": "Discovered",
@@ -1103,6 +1137,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Upload_Resume\\Progress_Report_11901150.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Upload_Resume\\project_report.pdf",
+      "SourceId": "Candidate_Management_System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\",
+      "BasePath": "_content/Candidate_Management_System",
+      "RelativePath": "Upload_Resume/project_report.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload_Resume\\project_report.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\20220327_141056.jpg",
+      "SourceId": "Candidate_Management_System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\",
+      "BasePath": "_content/Candidate_Management_System",
+      "RelativePath": "Uploads/20220327_141056.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\20220327_141056.jpg"
     },
     {
       "Identity": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\download.jpeg",
@@ -1156,6 +1224,23 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\mypic.jpg"
     },
     {
+      "Identity": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\pic.jpg",
+      "SourceId": "Candidate_Management_System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\",
+      "BasePath": "_content/Candidate_Management_System",
+      "RelativePath": "Uploads/pic.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\pic.jpg"
+    },
+    {
       "Identity": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\Screenshot (1).png",
       "SourceId": "Candidate_Management_System",
       "SourceType": "Discovered",
@@ -1173,6 +1258,23 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Screenshot (1).png"
     },
     {
+      "Identity": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\WhatsApp Image 2023-03-02 at 13.29.08.jpeg",
+      "SourceId": "Candidate_Management_System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\",
+      "BasePath": "_content/Candidate_Management_System",
+      "RelativePath": "Uploads/WhatsApp Image 2023-03-02 at 13.29.08.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\WhatsApp Image 2023-03-02 at 13.29.08.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\WhatsApp Image 2023-03-02 at 13.29.09.jpeg",
       "SourceId": "Candidate_Management_System",
       "SourceType": "Discovered",
@@ -1188,6 +1290,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\WhatsApp Image 2023-03-02 at 13.29.09.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\Uploads\\WhatsApp Image 2023-03-02 at 13.31.14.jpeg",
+      "SourceId": "Candidate_Management_System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Candidate_Management_System\\wwwroot\\",
+      "BasePath": "_content/Candidate_Management_System",
+      "RelativePath": "Uploads/WhatsApp Image 2023-03-02 at 13.31.14.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\WhatsApp Image 2023-03-02 at 13.31.14.jpeg"
     }
   ]
 }

@@ -19,8 +19,8 @@
    <label for="lastname" class="col-md-3 control-label">Image</label>  
 <div class="col-md-9">  
    <input type="file" name="Image"/>
-   @* @Html.TextBoxFor(x => x.Image, "", new { @class = "form-control", placeholder = "Upload your image here" })  
-     @Html.ValidationMessageFor(x => x.Image,"",new{@class="text-danger"}) *@
+   @* @Html.TextBoxFor(x => x.Image, "", new { @class = "form-control", placeholder = "Upload your image here" })*@  
+     @Html.ValidationMessageFor(x => x.Image,"",new{@class="text-danger"}) 
 </div>  
 </div>  
 <br/> 
@@ -81,20 +81,11 @@
    <label for="lastname" class="col-md-3 control-label">Resume</label>  
 <div class="col-md-9">  
    <input type="file" name="Resume"/>
-   @* @Html.TextBoxFor(x => x.Image, "", new { @class = "form-control", placeholder = "Upload your image here" })  
-     @Html.ValidationMessageFor(x => x.Image,"",new{@class="text-danger"}) *@
 </div>  
 </div>  
 <br/> 
 
-@* <div class="form-group">  
-   <label for="contact" class="col-md-3 control-label">Resume</label>  
-<div class="col-md-9">  
-   @Html.TextBoxFor(x => x.Resume , new { @class = "form-control", placeholder = "Add your resume here" })
-   @Html.ValidationMessageFor(x => x.Resume ,"",new{@class="text-danger"}) 
-  </div>  
-</div> 
-<br/>   *@
+
 
 <div class="form-group">  
    <label for="contact" class="col-md-3 control-label">Description</label>  

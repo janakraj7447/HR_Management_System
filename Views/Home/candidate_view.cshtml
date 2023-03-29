@@ -70,20 +70,27 @@
   <h3>
  List of candidates
   </h3>
- 
+ @using (Html.BeginForm())  
+{  
+    <p>  
+        Search Name: @Html.TextBox("Search_Data", ViewBag.FilterValue as string)  
+        <input type="submit" value="Find" />  
+    </p>  
+}  
 </div>
 <table class="center">
     <thead>
         <tr>
             <th>
-              Candidate Name
-               @* @Html.ActionLink("Candidate Name","candidate_view",new{sortBy=ViewBag.SortNameParameter}) *@
+              @* Candidate Name *@
+               @Html.ActionLink("Candidate Name", "candidate_view", new { Sorting_Order = ViewBag.SortingName })  
                 </th>
                  <th>
                 Image
                 </th>
                  <th>
-                DOB
+                   @Html.ActionLink("DOB", "candidate_view", new { Sorting_Order = ViewBag.SortingName })  
+                @* DOB *@
                 </th>
                  <th>
                 Address

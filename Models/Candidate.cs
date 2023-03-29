@@ -8,7 +8,7 @@ public partial class Candidate
    
     public string? CandidateName { get; set; }
 
-
+     [Required]
     public string? Image { get; set; }
 
      [Required]
@@ -23,7 +23,7 @@ public partial class Candidate
     public string? Email { get; set; }
 [Required]
     public string? Technology { get; set; }
-
+   [Required(ErrorMessage ="Resume should be in pdf or word format")]
     public string? Resume { get; set; }
 [Required]
     public string? Description { get; set; }
@@ -31,7 +31,7 @@ public partial class Candidate
 
 public enum tech
 {
-    dotnet,
+    dotnet=7,
     php,
     QA,
     Java  

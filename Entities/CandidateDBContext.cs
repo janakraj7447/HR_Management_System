@@ -17,6 +17,8 @@ public partial class CandidateDBContext : DbContext
 
     public virtual DbSet<CandidateInformation> CandidateInformations { get; set; }
 
+    public virtual DbSet<Login> Logins { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Server=DESKTOP-FH2KN1N\\SQLEXPRESS;Database=janak_DB;Trusted_Connection=True;TrustServerCertificate=True");
@@ -42,6 +44,17 @@ public partial class CandidateDBContext : DbContext
             entity.Property(e => e.Mobile).HasMaxLength(20);
             entity.Property(e => e.Resume).HasMaxLength(50);
             entity.Property(e => e.Technology).HasMaxLength(50);
+        });
+
+        modelBuilder.Entity<Login>(entity =>
+        {
+            entity.ToTable("Login");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.IsActive).HasColumnName("isActive");
+            entity.Property(e => e.Password).HasMaxLength(50);
+            entity.Property(e => e.Role).HasMaxLength(50);
+            entity.Property(e => e.UserName).HasMaxLength(50);
         });
 
         OnModelCreatingPartial(modelBuilder);
